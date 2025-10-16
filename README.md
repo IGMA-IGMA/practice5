@@ -1,9 +1,9 @@
 # practice5
 ДЛЯ ПОВТОРНОЙ КОМПИЛЯЦИИ
 ```
-g++ -I .\include\ .\src\main.cpp .\src\graph.cpp .\src\main_window.cpp -lsfml-graphics -lsfml-window -lsfml-system
+   g++ main.cpp -o graph_app.exe -lsfml-graphics -lsfml-window -lsfml-system -lsfml-main
 ```
 ДЛЯ ЗАПУСКА ПРОЕКТА 
 ```
-a.exe
+graph_app.exe
 ```
